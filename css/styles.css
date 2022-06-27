@@ -220,6 +220,10 @@ body {
   justify-content: space-between;
 }
 
+.work-list {
+  position: relative;
+}
+
 .work-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -233,6 +237,24 @@ body {
 
 .work-img {
   display: block;
+}
+
+.work-text {
+  position: absolute;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 370px;
+  bottom: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .team {
@@ -511,9 +533,28 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 
+.portfolio-thumb {
+  position: relative;
+}
+
 .portfolio-foto {
   display: block;
   margin-right: 0;
+}
+
+.portfolio-thumb-title {
+  position: absolute;
+  margin: 0;
+  padding: 63px 24px;
+  bottom: 0;
+  height: 100%;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: #ffffff;
+
+  background-color: rgba(33, 150, 243, 0.9);
 }
 
 .portfolio-border {
